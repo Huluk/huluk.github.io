@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Huluks Blog</title>
+		<description>Where I might post things ...</description>		
+		<link>http://huluk.github.io</link>
+		<atom:link href="http://huluk.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Startup</title>
+				<description>&lt;p&gt;Dies ist mein dritter Versuch, mal mit dem Bloggen anzufangen. Da ich
+sowieso Zusammenfassungen zu den Inhalten meines Studiums schreiben möchte,
+kann ich die ja gleich hier veröffentlichen. Das ist zwar nicht besonders
+spannend, senkt aber auch die Schwelle für mich, hier andere Inhalte
+reinzutun. In diesem Sinne, auf ein Neues!&lt;/p&gt;
+
+&lt;p&gt;Besonderer Dank gilt &lt;a href=&quot;http://nino.github.io&quot;&gt;Nino&lt;/a&gt;, der mir Tipps zum Bauen
+dieser Seite gegeben hat.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 09 Mar 2014 00:00:00 +0100</pubDate>
+				<link>http://huluk.github.io/general/startup.html</link>
+				<guid isPermaLink="true">http://huluk.github.io/general/startup.html</guid>
+			</item>
+		
+	</channel>
+</rss>
