@@ -7,6 +7,27 @@
 		<atom:link href="http://huluk.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Home</title>
+				<description>&lt;p&gt;Home&lt;/p&gt;
+
+&lt;p&gt;You leave the cosy hut and go outside into the cold. A few steps through
+thigh-high snow and darkness, then your eyes get used to the dimm moon
+light and you see the mountains rising up even higher than your already
+elevated position. The wind blows clouds of snow from the exposed cliffs on
+the right of each mountain. It&amp;rsquo;s the same snow that gets blown on your face
+and bites into your right cheek, while the left one only cools out from wind
+alone. Every other blow lifts part of your coat and chills your intestines.
+Your right boot has sunken in too deep a snow pile; the usual wetness in the
+lower inches of your jeans now continues to your right ankle and beyond.
+Your lips form a smile as your gaze sweeps over the mountaintops. Now at
+last, the world around you perfectly mirrors the world within.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 21 Dec 2014 00:00:00 +0100</pubDate>
+				<link>http://huluk.github.io/writing/home.html</link>
+				<guid isPermaLink="true">http://huluk.github.io/writing/home.html</guid>
+			</item>
+		
+			<item>
 				<title>Mapfold</title>
 				<description>&lt;p&gt;Ich habe lange kein Erlang mehr geschrieben, jetzt kommt es in einer
 Vorlesung dran. Als Fingerübung (und zum Testen des Code-Highlightings
