@@ -46,15 +46,14 @@
 Vorlesung dran. Als Fingerübung (und zum Testen des Code-Highlightings
 hier) eine endrekursive mapfold-Implementation.</p>
 
-<div class="highlight"><pre><code class="erlang"><span class="nf">mapfold</span><span class="p">(</span><span class="nv">Func</span><span class="p">,</span> <span class="nv">Accu</span><span class="p">,</span> <span class="nv">List</span><span class="p">)</span> <span class="o">-&gt;</span>
+<div class="highlight"><pre><code class="language-erlang" data-lang="erlang"><span class="nf">mapfold</span><span class="p">(</span><span class="nv">Func</span><span class="p">,</span> <span class="nv">Accu</span><span class="p">,</span> <span class="nv">List</span><span class="p">)</span> <span class="o">-&gt;</span>
     <span class="n">mapfold</span><span class="p">(</span><span class="nv">Func</span><span class="p">,</span> <span class="nv">Accu</span><span class="p">,</span> <span class="p">[],</span> <span class="nv">List</span><span class="p">).</span>
 
 <span class="nf">mapfold</span><span class="p">(</span><span class="nv">Func</span><span class="p">,</span> <span class="nv">Accu</span><span class="p">,</span> <span class="nv">LiAccu</span><span class="p">,</span> <span class="p">[</span><span class="nv">Head</span><span class="p">|</span><span class="nv">Tail</span><span class="p">])</span> <span class="o">-&gt;</span>
     <span class="p">{</span><span class="nv">NewElem</span><span class="p">,</span><span class="nv">NewAccu</span><span class="p">}</span> <span class="o">=</span> <span class="nv">Func</span><span class="p">(</span><span class="nv">Head</span><span class="p">,</span><span class="nv">Accu</span><span class="p">),</span>
     <span class="n">mapfold</span><span class="p">(</span><span class="nv">Func</span><span class="p">,</span><span class="nv">NewAccu</span><span class="p">,[</span><span class="nv">NewElem</span><span class="p">|</span><span class="nv">LiAccu</span><span class="p">],</span><span class="nv">Tail</span><span class="p">);</span>
 <span class="nf">mapfold</span><span class="p">(_,</span> <span class="nv">Accu</span><span class="p">,</span> <span class="nv">LiAccu</span><span class="p">,</span> <span class="p">[])</span> <span class="o">-&gt;</span>
-    <span class="p">{</span><span class="nn">lists</span><span class="p">:</span><span class="nf">reverse</span><span class="p">(</span><span class="nv">LiAccu</span><span class="p">),</span><span class="nv">Accu</span><span class="p">}.</span>
-</code></pre></div>
+    <span class="p">{</span><span class="nn">lists</span><span class="p">:</span><span class="nf">reverse</span><span class="p">(</span><span class="nv">LiAccu</span><span class="p">),</span><span class="nv">Accu</span><span class="p">}.</span></code></pre></div>
 
 
 
