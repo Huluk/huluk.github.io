@@ -7,6 +7,61 @@
 		<atom:link href="http://huluk.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Learning Spanish 1</title>
+				<description>&lt;p&gt;Last week I decided to lean Spanish, roughly according to the &lt;a href=&quot;http://www.memrise.com/blog/can-you-learn-a-new-language-in-5-weeks/&quot;&gt;study plan&lt;/a&gt; of
+Tommo Valkonen. First of, some history about why I want to do this:&lt;/p&gt;
+
+&lt;p&gt;My interest in languages started when I was some time into learning
+Esperanto and I found out that such endeavors – learning a language – are
+not necessarily horrible. I began to play around with foreign grammar and
+looked into some other constructed languages and finally Icelandic, which I
+learned – and still learn – to some extend. However, I soon met the desire
+to speak a more conventionally useful language and began to study Arabic in
+parallel to Icelandic and a full university schedule. This was obviously not
+planned through and I soon dropped it. So, what easy but useful languages
+are out there? The list is quite short: Spanish, French, and Polish for
+family reasons. I don&amp;rsquo;t currently want to put up with French spelling and
+pronunciation, which leaves the other two. Reading the memrise blog post
+mentioned above, I decided that a 6 week programme fits right into my
+schedule: starting on May 8th and ending on June 25th, with a week of
+interruption to go cycling in Norway.&lt;/p&gt;
+
+&lt;p&gt;According to the plan, I first learn the alphabet and pronunciation of the
+language (yup, took an hour or so). The next step is to learn the most
+common words, so that I have a base for further learning. After that, I&amp;rsquo;ll
+learn basic grammar and create some sentences. The rest of the time,
+practice with real people over the internet. As an introvert, this will be
+the hardest part for me, I really hope I&amp;rsquo;m going to follow through with
+this.&lt;/p&gt;
+
+&lt;p&gt;Last week, I used memrise to learn the 1000 most common Spanish
+words. I heavily recommend memrise for vocab learning, but even for
+oft-learned languages like Spanish, not all top listed courses are really
+good. The number of learners is a good first indication of course quality,
+but I recommend looking at the course forum to find out how the course
+creator reacts to correction proposals. A good course also provides
+information about the words (e.g. gender), but doesn&amp;rsquo;t force you to always
+type the relevant markers and accepts alternative versions of words and
+other words with the same meaning. For learning, I recommend practicing
+daily (with obvious exceptions for vacations and special events). This is
+independent of your time frame to learn the language. If you really don&amp;rsquo;t
+find motivation to learn on a specific date, just repeat one or two words
+and call it a day.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t know when I&amp;rsquo;ll publish the next progress report, because there will
+be a lot to do at the end of the next week. Final presentation for
+Bachelor&amp;rsquo;s degree, preparation for holiday, and all. Expect something by
+June 4th.
+I published this post without corrections, because I wouldn&amp;rsquo;t publish it at
+all would I force myself to make it perfect. Nonetheless, mayme you found it
+interesting or even motivating to start learning a language yourself.&lt;/p&gt;
+</description>
+				<pubDate>Sat, 16 May 2015 00:00:00 +0200</pubDate>
+				<link>http://huluk.github.io/writing/learning-spanish-1.html</link>
+				<guid isPermaLink="true">http://huluk.github.io/writing/learning-spanish-1.html</guid>
+			</item>
+		
+			<item>
 				<title>The Grove</title>
 				<description>&lt;p&gt;Birch grove. Two trees in front of you, one left and two more to the sides.
 Behind them fields of wheat, glowing yellow and ripe into the lightly
@@ -75,15 +130,14 @@ last, the world around you perfectly mirrors the world within.&lt;/p&gt;
 Vorlesung dran. Als Fingerübung (und zum Testen des Code-Highlightings
 hier) eine endrekursive mapfold-Implementation.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;erlang&quot;&gt;&lt;span class=&quot;nf&quot;&gt;mapfold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Accu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-erlang&quot; data-lang=&quot;erlang&quot;&gt;&lt;span class=&quot;nf&quot;&gt;mapfold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Accu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;mapfold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Accu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[],&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;
 
 &lt;span class=&quot;nf&quot;&gt;mapfold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Accu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;LiAccu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Tail&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;NewElem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;NewAccu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Accu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;mapfold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;NewAccu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;NewElem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;LiAccu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Tail&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;nf&quot;&gt;mapfold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(_,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Accu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;LiAccu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;lists&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;reverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;LiAccu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Accu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;lists&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;reverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;LiAccu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Accu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 
