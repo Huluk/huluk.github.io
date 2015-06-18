@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <link rel="alternate" type="application/rss+xml" title="Huluks Blog" href="http://huluk.github.io/feed.xml">
+        <title>Mapfold</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+                tex2jax: {inlineMath: [['\\(','\\)'], ['$', '$']]}
+            });
+        </script>
+    </head>
+    <body>
+        <span style="display:none;">
+            \(
+            \renewcommand\vec[1]{\mathbf #1}
+            \newcommand\pp[2]{\frac{\partial #1}{\partial #2}}
+            \newcommand\dd[2]{\frac{\mathrm d #1}{\mathrm d #2}}
+            \newcommand\d{\,\mathrm d}
+            \)
+        </span>
+        <div class="site">
+          <div class="header">
+            <h1 class="title"><a href="/">Huluks Blog</a></h1>
+            <a class="extra" href="/">home</a>
+            <a class="extra" href="/feed.xml">RSS</a>
+            
+          </div>
+
+          <h2>Mapfold</h2>
+<p class="meta">09 Apr 2014 — posted in <a href="/categories/programming">programming</a>
+</p>
+
+<div class="post">
+<p>Ich habe lange kein Erlang mehr geschrieben, jetzt kommt es in einer
+Vorlesung dran. Als Fingerübung (und zum Testen des Code-Highlightings
+hier) eine endrekursive mapfold-Implementation.</p>
+
+<div class="highlight"><pre><code class="erlang"><span class="nf">mapfold</span><span class="p">(</span><span class="nv">Func</span><span class="p">,</span> <span class="nv">Accu</span><span class="p">,</span> <span class="nv">List</span><span class="p">)</span> <span class="o">-&gt;</span>
+    <span class="n">mapfold</span><span class="p">(</span><span class="nv">Func</span><span class="p">,</span> <span class="nv">Accu</span><span class="p">,</span> <span class="p">[],</span> <span class="nv">List</span><span class="p">).</span>
+
+<span class="nf">mapfold</span><span class="p">(</span><span class="nv">Func</span><span class="p">,</span> <span class="nv">Accu</span><span class="p">,</span> <span class="nv">LiAccu</span><span class="p">,</span> <span class="p">[</span><span class="nv">Head</span><span class="p">|</span><span class="nv">Tail</span><span class="p">])</span> <span class="o">-&gt;</span>
+    <span class="p">{</span><span class="nv">NewElem</span><span class="p">,</span><span class="nv">NewAccu</span><span class="p">}</span> <span class="o">=</span> <span class="nv">Func</span><span class="p">(</span><span class="nv">Head</span><span class="p">,</span><span class="nv">Accu</span><span class="p">),</span>
+    <span class="n">mapfold</span><span class="p">(</span><span class="nv">Func</span><span class="p">,</span><span class="nv">NewAccu</span><span class="p">,[</span><span class="nv">NewElem</span><span class="p">|</span><span class="nv">LiAccu</span><span class="p">],</span><span class="nv">Tail</span><span class="p">);</span>
+<span class="nf">mapfold</span><span class="p">(_,</span> <span class="nv">Accu</span><span class="p">,</span> <span class="nv">LiAccu</span><span class="p">,</span> <span class="p">[])</span> <span class="o">-&gt;</span>
+    <span class="p">{</span><span class="nn">lists</span><span class="p">:</span><span class="nf">reverse</span><span class="p">(</span><span class="nv">LiAccu</span><span class="p">),</span><span class="nv">Accu</span><span class="p">}.</span>
+</code></pre></div>
+
+
+
+
+</div>
+
+
+          <div class="footer">
+            <div class="contact">
+              <p>
+                  LarsHuluk[at]gmail.com
+              </p>
+            </div>
+            <div class="contact">
+              <p>
+                <a href="https://github.com/Huluk">github.com/Huluk</a><br />
+                <a href="https://twitter.com/LarsHuluk">twitter.com/LarsHuluk</a><br />
+              </p>
+            </div>
+          </div>
+        </div>
+
+    </body>
+</html>
