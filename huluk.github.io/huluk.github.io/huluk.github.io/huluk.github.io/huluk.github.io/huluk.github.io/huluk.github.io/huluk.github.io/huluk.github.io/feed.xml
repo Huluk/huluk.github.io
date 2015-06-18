@@ -7,6 +7,51 @@
 		<atom:link href="http://huluk.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Home</title>
+				<description>&lt;p&gt;Home&lt;/p&gt;
+
+&lt;p&gt;You leave the cosy hut and go outside into the cold. A few steps through
+thigh-high snow and darkness, then your eyes get used to the dimm moon
+light and you see the mountains rising up even higher than your already
+elevated position. The wind blows clouds of snow from the exposed cliffs on
+the right of each mountain. It&amp;rsquo;s the same snow that gets blown on your face
+and bites into your right cheek, while the left one only cools out from wind
+alone. Every other blow lifts part of your coat and chills your intestines.
+Your right boot has sunken in too deep a snow pile; the usual wetness in the
+lower inches of your jeans now continues to your right ankle and beyond.
+Your lips form a smile as your gaze sweeps over the mountaintops. Now at
+last, the world around you perfectly mirrors the world within.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 21 Dec 2014 00:00:00 +0100</pubDate>
+				<link>http://huluk.github.io/writing/home.html</link>
+				<guid isPermaLink="true">http://huluk.github.io/writing/home.html</guid>
+			</item>
+		
+			<item>
+				<title>Mapfold</title>
+				<description>&lt;p&gt;Ich habe lange kein Erlang mehr geschrieben, jetzt kommt es in einer
+Vorlesung dran. Als Fingerübung (und zum Testen des Code-Highlightings
+hier) eine endrekursive mapfold-Implementation.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;erlang&quot;&gt;&lt;span class=&quot;nf&quot;&gt;mapfold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Accu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;mapfold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Accu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[],&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;
+
+&lt;span class=&quot;nf&quot;&gt;mapfold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Accu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;LiAccu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Tail&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;NewElem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;NewAccu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Accu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;mapfold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;NewAccu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;NewElem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;LiAccu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Tail&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nf&quot;&gt;mapfold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(_,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Accu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;LiAccu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;lists&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;reverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;LiAccu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Accu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+
+</description>
+				<pubDate>Wed, 09 Apr 2014 00:00:00 +0200</pubDate>
+				<link>http://huluk.github.io/programming/mapfold.html</link>
+				<guid isPermaLink="true">http://huluk.github.io/programming/mapfold.html</guid>
+			</item>
+		
+			<item>
 				<title>Startup</title>
 				<description>&lt;p&gt;Dies ist mein dritter Versuch, mal mit dem Bloggen anzufangen. Da ich
 sowieso Zusammenfassungen zu den Inhalten meines Studiums schreiben möchte,
