@@ -1,0 +1,32 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Huluks Blog
+email: larshuluk@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Where I might post things…
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://huluk.github.io"
+twitter_username: LarsHuluk
+github_username:  Huluk
+encoding: utf-8
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+exclude:
+#   - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
