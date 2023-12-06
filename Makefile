@@ -1,5 +1,5 @@
 run:
-	cd publish && bundle exec jekyll serve
+	cd docs && bundle exec jekyll serve
 
 install:
-	cd publish && bundle install
+	cd docs && bundle install
