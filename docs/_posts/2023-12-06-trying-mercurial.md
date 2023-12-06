@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Trying Mercurial"
-date:   2023-12-06 08:30 +0100
+date:   2023-12-06 08:04 +0100
 categories: programming
 tags: english
 ---
 As a student – let's say it's around the year 2013 – I mostly used git as the
 favoured version control system because it was the de facto standard. There
-where folks using subversion, but that seemed to be very much a holdout from the
+were folks using subversion, but that seemed to be very much a holdout from the
 before times, and was on its way out.
 
 Despite this, I was never happy with git. The frequency with which you have to
