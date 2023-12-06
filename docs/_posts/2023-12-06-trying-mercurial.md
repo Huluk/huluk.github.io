@@ -47,9 +47,10 @@ have a good side-by-side merge view with this configuration.
 Then, picking a host for my projects wasn't as trivial a just setting up a
 Github account. I had the vague memory that Gitlab supported mercurial, but in
 fact it's the fork [Heptapod](https://heptapod.net/) which does so. There are
-some alternative platforms like [CodeBase](https://www.codebasehq.com/), but all
-have in common that the minimum amount you pay for an account is upwards of 10
-USD per month if you want to invite some friends to the repository.
+[some alternative platforms](https://wiki.mercurial-scm.org/MercurialHosting)
+like [CodeBase](https://www.codebasehq.com/), but all have in common that the
+minimum amount you pay for an account is upwards of 10 USD per month if you want
+to invite some friends to a private repository.
 
 In direct comparison, I liked CodeBase way more than Heptapod, but both are
 somewhat lacking:
