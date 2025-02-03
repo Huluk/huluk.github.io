@@ -8,6 +8,6 @@ permalink: /taskheap-contact/
 
 ## TaskHeap
 
-Lars Hansen
-Adliswil, Switzerland
+Lars Hansen \
+Adliswil, Switzerland \
 [taskheap+contact@pm.me](mailto:taskheap+contact@pm.me)
