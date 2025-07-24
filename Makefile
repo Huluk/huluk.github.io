@@ -3,3 +3,6 @@ run:
 
 install:
 	cd docs && bundle install
+
+update:
+	cd docs && bundle update
