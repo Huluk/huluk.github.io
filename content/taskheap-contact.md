@@ -1,7 +1,8 @@
 ---
-layout: default
 title: "Taskheap – Contact"
-permalink: /taskheap-contact/
+url: /taskheap-contact/
+build:
+  list: never
 ---
 
 # Support

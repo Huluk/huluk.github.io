@@ -1,9 +1,12 @@
 run:
-	cd docs && bundle exec jekyll serve --incremental
+	hugo server
+
+build:
+	hugo --gc --minify
 
 install:
-	mise use ruby@3
-	cd docs && bundle install
+	mise install
+	hugo mod get
 
 update:
-	cd docs && bundle update --all
+	hugo mod get -u && hugo mod tidy

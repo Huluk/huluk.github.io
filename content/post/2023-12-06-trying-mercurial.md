@@ -1,7 +1,7 @@
 ---
-layout: post
-title:  "Trying Mercurial"
-date:   2023-12-06 08:04 +0100
+title: "Trying Mercurial"
+date: 2023-12-06T08:04:00+01:00
+url: /programming/2023/12/06/trying-mercurial.html
 categories: programming
 tags: english
 ---

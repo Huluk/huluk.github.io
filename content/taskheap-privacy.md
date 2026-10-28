@@ -1,7 +1,8 @@
 ---
-layout: default
 title: "Taskheap – Privacy Policy"
-permalink: /taskheap-privacy/
+url: /taskheap-privacy/
+build:
+  list: never
 ---
 
 # Privacy Policy

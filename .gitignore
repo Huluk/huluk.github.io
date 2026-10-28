@@ -3,3 +3,6 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+public
+resources/_gen
+.hugo_build.lock

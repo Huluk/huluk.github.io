@@ -1,7 +1,8 @@
 ---
-layout: page
 title: About
-permalink: /about/
+url: /about/
+build:
+  list: never
 ---
 
 My blog and static page, try number 4.

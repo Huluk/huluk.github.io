@@ -1,0 +1,23 @@
+header nav.pv3 {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+header nav + .pv3 {
+  padding-top: 0;
+  padding-bottom: .5rem;
+}
+
+header h1.light-silver {
+  color: rgba(255, 255, 255, .9);
+}
+
+@media screen and (min-width: 60em) {
+  header .pb6-l {
+    padding-bottom: 1rem;
+  }
+
+  header .f-subheadline-l {
+    font-size: 2.25rem;
+  }
+}

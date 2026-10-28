@@ -1,7 +1,7 @@
 ---
-layout: post
-title:  "Intentions"
-date:   2023-05-08 22:30 +0200
+title: "Intentions"
+date: 2023-05-08T22:30:00+02:00
+url: /meta/2023/05/08/intentions.html
 categories: meta
 tags: english
 ---
