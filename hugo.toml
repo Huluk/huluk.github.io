@@ -32,14 +32,9 @@ pageRef = "/about"
 weight = 10
 
 [[menus.main]]
-name = "Taskheap – Contact"
-pageRef = "/taskheap-contact"
+name = "Contact"
+pageRef = "/contact"
 weight = 20
-
-[[menus.main]]
-name = "Taskheap – Privacy Policy"
-pageRef = "/taskheap-privacy"
-weight = 30
 
 [module]
 [[module.imports]]
